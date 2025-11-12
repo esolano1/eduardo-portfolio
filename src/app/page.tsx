@@ -16,10 +16,10 @@ export default function HomePage() {
             Eduardo Solano
           </h1>
           <p className="mt-4 text-xl text-gray-300">
-            Transformando ideas en experiencias web potentes.
+            Frontend Developer — Creating interactive and performance-driven websites
           </p>
           <button className="mt-8 flex items-center justify-center rounded-lg h-12 px-6 bg-primary text-white text-base font-bold tracking-wide transition-transform hover:scale-105">
-            <span>Ver mi trabajo</span>
+            <span>See my work</span>
           </button>
         </div>
 
@@ -27,7 +27,7 @@ export default function HomePage() {
           <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl border-4 border-primary">
 
          { <Image src="/images/profile.JPEG"
-          alt="Foto de Eduardo Solano"
+          alt="Photo of Eduardo Solano"
          className="w-full h-full object-cover"  // Siempre se muestra la imagen
          // className="hidden md:block"  // Para movil no se muestra a partir de 768px hacia abajo
           height={760}
@@ -35,13 +35,13 @@ export default function HomePage() {
 
 
          { /* <Image src="/images/profile.JPEG"
-          alt="Foto de Eduardo Solano"
+          alt="Photo of Eduardo Solano"
           className="hidden md:block"  // Para movil no se muestra a partir de 768px hacia abajo
           height={760}
           width={1000}/> */}
 
           { /*<Image src="/images/profile.JPEG"
-          alt="Foto de Eduardo Solano"
+          alt="Photo of Eduardo Solano"
           className="block md:hidden"  // Para movil no se muestra a partir de 768px hacia abajo
           height={760}
           width={1000}/> */}
